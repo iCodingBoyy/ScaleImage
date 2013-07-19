@@ -18,6 +18,7 @@
 		6B125F0F179978B600F79E18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B125F0E179978B600F79E18 /* Default-568h@2x.png */; };
 		6B125F12179978B600F79E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B125F11179978B600F79E18 /* ViewController.m */; };
 		6B125F15179978B600F79E18 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B125F13179978B600F79E18 /* ViewController.xib */; };
+		6B125F1D17997E1100F79E18 /* 030.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B125F1C17997E1100F79E18 /* 030.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		6B125F10179978B600F79E18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6B125F11179978B600F79E18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B125F14179978B600F79E18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6B125F1C17997E1100F79E18 /* 030.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 030.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		6B125EFE179978B600F79E18 /* ScaleImage */ = {
 			isa = PBXGroup;
 			children = (
+				6B125F1B17997DF100F79E18 /* resource */,
 				6B125F07179978B600F79E18 /* AppDelegate.h */,
 				6B125F08179978B600F79E18 /* AppDelegate.m */,
 				6B125F10179978B600F79E18 /* ViewController.h */,
@@ -105,6 +108,14 @@
 				6B125F0E179978B600F79E18 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B125F1B17997DF100F79E18 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				6B125F1C17997E1100F79E18 /* 030.jpg */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 				6B125F0D179978B600F79E18 /* Default@2x.png in Resources */,
 				6B125F0F179978B600F79E18 /* Default-568h@2x.png in Resources */,
 				6B125F15179978B600F79E18 /* ViewController.xib in Resources */,
+				6B125F1D17997E1100F79E18 /* 030.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
